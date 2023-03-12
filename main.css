@@ -1,0 +1,98 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vw;
+    text-align: center;
+    background-image: linear-gradient(90deg, #17d888, #1793d1);
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 3rem;
+    color: rgb(221, 46, 23); 
+    padding-top: 3rem; 
+}
+
+.poke-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.poke-box{
+    width: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding-top:  30px;
+    padding-bottom: 30px;
+    margin: 20px;
+}
+
+.poke-box img{
+    width: 80%;
+}
+
+.poke-box h4{
+    margin: 5px;
+    font-size: large;
+
+}
+
+.poke-box p{
+    margin: 3px auto;
+
+}
+
+.poke-box:hover{
+    border: solid black;
+}
+
+.poke-info .poke-card{
+    width: 30%;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.poke-info .poke-card p{
+    font-weight: bold;
+    margin: 10px 10px;
+}
+
+.poke-info .poke-card img{
+    width: 70%;
+}
+
+.poke-info{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.poke-name{
+    margin-top: 3px;
+    color: crimson
+}
+
+hr{
+    border:none;
+    border-bottom: 2px dashed lightslategray;
+}
+
+a{
+    text-decoration: none;
+    color: darkslategray
+}
+
